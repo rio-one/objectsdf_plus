@@ -38,8 +38,8 @@ Clone the repository and create an anaconda environment named objsdf
 git clone https://github.com/QianyiWu/objectsdf_plus.git
 cd objectsdf_plus
 
-conda create -y -n objsdf python=3.9
-conda activate object
+conda create -y -n objsdf python=3.10
+conda activate objsdf
 
 pip install -r requirements.txt
 ```
