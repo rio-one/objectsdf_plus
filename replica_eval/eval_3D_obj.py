@@ -113,7 +113,7 @@ if __name__ == "__main__":
     mesh_rec_root = "../exps/objectsdfplus_replica" # path to the reconstruction results
     os.makedirs(log_dir, exist_ok=True)
     for idx, exp in enumerate(exp_name):
-        if exp is not "room2": continue
+        if exp is not "room0": continue
         idx = idx + 1
         gt_dir = os.path.join(data_dir, exp[:-1]+"_"+exp[-1]+"/habitat")
         info_text = os.path.join(info_dir, 'scan'+str(idx), 'instance_mapping.txt')
